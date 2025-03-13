@@ -1,0 +1,52 @@
+/* initial design  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* main design  */
+
+#bodyDiv{
+    background-color: #ebdef0;
+    padding: 2%;
+}
+
+#mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#mainDiv #leftDiv,#mainDiv #rightDiv{
+    flex: 50%;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 3px 3px 5px #ddd;
+    border-radius: 20px;
+    height: 92vh;
+    overflow: scroll;
+}
+
+#personalInfo2{
+    text-align: center;
+    padding: 5px 0px;
+    background-color: #eaecee;
+    margin-bottom: 8px;
+    border-radius: 10px;
+
+}
+
+#personalInfo2 p{
+    font-weight: bold;
+}
+
+#email2 , #mobile2 , #linkedLink2 {
+    margin: 10px;
+    font-weight: normal;
+}
